@@ -1,0 +1,123 @@
+.footer__container {
+    background-color: var(--color-footer);
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 10rem 2rem 10rem;
+    margin-top: 10rem;
+    
+}
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.footer_content h1{
+    font-size: 50px;
+    font-family: var(--font-family);
+    
+}
+.footer_content p {
+    font-size: 50px;
+    margin-top: -4rem;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+.footer_content h6 {
+    border: 1px solid #fff;
+    
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding: 1.5rem 3rem;
+    font-weight: 400;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    color: #fff;
+}
+.header_two {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.first_link, 
+.second_link,
+.third_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.first_link a,
+.second_link a,
+.third_link a {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 10;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.first_link p,
+.second_link p,
+.third_link p {
+    color: white;
+    font-weight: 600;
+}
+.copyright {
+    display: flex;
+    color: #fff;
+    font-weight: 100;
+    font-size: 10px;
+    align-items: center;
+    opacity: 0.7;
+    font-family: var(--font-family);
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+
+    .footer_content h6 {
+        margin-bottom: 5rem;
+    }
+   
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+    .first_link, 
+    .second_link,
+    .third_link {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+    .header_two {
+        flex-direction: column;
+        gap: 5rem;
+        margin: 3rem;
+
+    }
+    .footer_content p {
+        text-align: center;
+        font-size: 45px;
+    }
+    
+    .footer__container {
+        padding: 1rem 1rem 2rem 1rem;
+        margin-top: 10rem;
+    }    
+    .footer_content h1{
+        font-size: 45px;
+        text-align: center;
+        
+    }
+    
+}

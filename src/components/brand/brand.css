@@ -1,0 +1,32 @@
+.gpt3_brand-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+
+}
+.gpt3_brand-section img {
+    width: 160px;
+    padding: 0 2rem; 
+}
+
+/* @media  screen and (max-width: 490px) {
+    .gpt3_brand-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:2rem;
+        align-items: center;
+        
+    }
+} */
+
+@media screen and (max-width: 425px) {
+    .gpt3_brand-section {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+
+    }
+}
